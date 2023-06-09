@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* the background with a background image*/
+body {
+    background-image: url('assets/back.jpg');
+}
+.wrapper {
+    background-image: url('assets/back3.jpg');
+    background: #C697E2;
+    background-size: auto;
+    width: 80%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #206B83;
+    border: 5px dashed #cc145b;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    font-family: inherit;
+    padding-bottom: 25px;
+}
+/*style the list with every odd bullet point bold*/
+li:nth-child(odd) {
+    font-weight: bold;
+    color: #206B83;
+    width: 400px;
+}
+/* Style for H1 heading Selector inherit color,padding,font*/
+h1 {
+    font-size: 70px;
+    color: inherit;
+    font-family: inherit;
+    padding: inherit;
+    text-align: center;
+}
+/* Style for H2 heading Selector inherit padding,font*/
+h2 {
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+    font-family: inherit;
+    color: #E0EB81;
+    background: #206B83;
+    padding: inherit;
+}
+/* Style for H3 heading Selector inherit color,padding,font*/
+h3 {
+    font-size: 32px;
+    font-family: inherit;
+    color: inherit;
+    padding: inherit;
+    font-weight: lighter;
+    box-shadow: 2px 2px 6px #206B83;
+    text-align: center;
+    display: block;
+    margin: 16px;
+}
+/* Style for P paragraph Selector inherit padding,font*/
+p {
+    font-size: 18px;
+    width: 450px;
+    height: 100px;
+    padding: inherit;
+    color: #E0EB81;
+    background: #206B83;
+}
+/* Style for img Selector with */
+/*using filter function two filter blur and saturate*/
+img {
+   /* make the image responsive */
+    width: 100%;
+    height: auto;
+    border: 4px solid #206B83;
+    filter: blur(1px) saturate(250%);
+}
+/*add one additional class*/
+.paragraph {
+    color: white;
+    width: auto;
+    height: auto;
+    background: #606060;
+    padding: inherit;
+}
+header {
+    width: auto;
+    height: auto;
+    width: 90%;
+}
